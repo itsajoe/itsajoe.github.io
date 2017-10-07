@@ -1,0 +1,341 @@
+body {
+	background-color: #D3D3D3;
+}
+
+
+section {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	padding: 20px 20px 20px 20px;
+	width: 10%;
+	text-align: center;
+	white-space: nowrap;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	overflow: auto;
+	height: 20px;
+	width: 200px;
+	color: white;
+	overflow: hidden;
+
+	
+
+
+
+}
+#top {
+	overflow: auto;
+	height: 60px;
+	background-color: #ffffff;
+	border-bottom: solid 1px;
+	
+
+	
+}
+
+.link {
+	position: absolute;
+	right: 15%;
+	padding: 20px 20px 20px 20px;
+	color: #777777;
+	text-decoration: none;
+
+
+}
+#contact {
+	right: 10%;
+
+}
+#portfolio {
+	right: 15%;
+}
+#about {
+	right: 21%;
+}
+
+#pic {
+	width: 250px;
+	height: 150px;
+    transform: rotate(270deg);
+    float: left;
+    padding: 80px 20px 20px 20px;
+}
+#body {
+	
+	background-color: #ffffff;
+	overflow: auto;
+	width: 650px;
+	height: 400px;
+	margin: 30px 30px 30px 30px;
+	padding: 10px 10px 10px 10px;
+	border: 1px;
+	border-color: #dddddd;
+	color: #777777;
+
+}
+img {
+	height: 40px;
+	width: 40px;
+	padding: 10px 10px 10px 10px;
+}
+
+#copy {
+	height: 15px;
+	width: 15px;
+	background-color: #777777;
+	padding-top: 20px;
+}
+footer {
+	text-align: center;
+	background-color: #eee;
+
+}
+h1 {
+	font-size: 20px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.line {
+	color: #dddddd;
+}
+
+aside {
+	height: 100px;
+	width: 270px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 27%;
+	right: 20%;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	border: 1px;
+	border-color: #dddddd; 
+
+}
+h2 {
+	font-size: 20px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+footer {
+	background-color: #777777;
+	text-align: center;
+	border-top: solid 5px #4aaaa5;
+	height: 100px;
+	color: #ffffff;
+	padding-top: 20px;
+
+}
+p {
+	font-size: 20px;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-indent: 20px;
+	line-height: 30px;
+
+
+
+}
+
+.box {
+	
+	width: 250px;
+	margin:30px;
+	text-align: center;
+	overflow: auto;
+	position: relative;
+	float: left;
+
+
+
+}
+.not {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	position:absolute;
+	width: 88%;
+	padding: 15px;
+	bottom: 20px;
+	float: left;
+	left: 10px;
+}
+
+.mine {
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+#uno {
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#dos {
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#tres{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 130px;
+	margin-top: 10px;
+}
+h3 {
+	font-weight: bold;
+}
+#cuatro {
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: white;
+}
+
+@media screen and (max-width: 980px) {
+	#top {
+		width: 100%;
+	}
+	#body {
+		width: 68%;
+		margin-right: 10px;
+		float: left;
+		margin-top: 3%;
+		margin-left: 20px;
+	}
+
+
+	aside {
+		width: 20%;
+		position: static;
+		float: left;
+		margin: 3% 10px 0 10px;
+
+	}
+	footer {
+		clear: both;
+		width: 100%;
+	}
+	
+
+	#contact {
+		right: 10%;
+
+	}
+	#portfolio {
+		right: 22.5%;
+	
+	}
+	#about {
+		right: 35%;
+	}
+	.mine {
+		width: 100%;
+		text-align: center;
+		margin: 30px 20% 30px 20%;
+	}
+	.not {
+		width: 88%;
+		text-align: center;
+		margin: 30px 20% 30px 20%;
+	}
+	
+}
+
+
+@media screen and (max-width: 768px) {
+	#top {
+		width: 100%;
+	}
+	#body {
+		width: 90%;
+		margin: 30px 30px 30px 30px;
+		float: left;
+	}
+
+
+	aside {
+		width: 90%;
+		position: static;
+		float: left;
+		margin: 0px 30px 30px 30px;
+
+	}
+	footer {
+		clear: both;
+		width: 100%;
+	}
+	
+
+	#contact {
+		right: 10%;
+
+	}
+	#portfolio {
+		right: 22.5%;
+	
+	}
+	#about {
+		right: 35%;
+	}
+	.mine {
+		width: 100%;
+		text-align: center;
+		margin: 30px 20% 30px 20%;
+	}
+	.not {
+		width: 88%;
+		text-align: center;
+		margin: 30px 20% 30px 20%;
+	}
+	
+}
+
+@media screen and (max-width: 640px) {
+	#top {
+		width: 100%;
+	}
+	#body {
+		width: 85%;
+		margin: 30px 30px 30px 30px;
+		float: left;
+	}
+
+
+	aside {
+		width: 85%;
+		position: static;
+		float: left;
+		margin: 0px 30px 30px 30px;
+	}
+	footer {
+		clear: both;
+		width: 100%;
+	}
+	
+	section {
+		display: none;
+	}
+	#contact {
+		right: 20%;
+
+	}
+	#portfolio {
+		right: 45%;
+	
+	}
+	#about {
+		right: 70%;
+	}
+	.mine {
+		width: 100%;
+		text-align: center;
+		
+		position: static;
+	}
+	.not {
+		width: 88%;
+		text-align: center;
+		
+	}
+	
+}
+
