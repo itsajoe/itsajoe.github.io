@@ -1,9 +1,237 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Joseph Musser</title>
 </head>
-<body>
+<title>Joseph Musser</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:500i" rel="stylesheet">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified Materialize CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
+<script src="https://use.fontawesome.com/a5d529aaa5.js"></script>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+<body>
+  <div class="parallax-container top">
+    <div class="parallax"><img src="assets/images/mountain.jpg"></div>
+    <h1>Hello! I'm Joseph Musser</h1>
+</div>
+
+    
+    <!-- <div class="section info"> -->
+  <!-- about -->
+  <div class="carousel carousel-slider center" data-indicators="true">
+      <div class="carousel-fixed-item center">
+        <p>Drag, Swipe or Click to see more!</p>
+      </div>
+      <div class="carousel-item black white-text" href="#one!">
+          <div id="aboutOne">
+              <div class="row">
+              <div class="col s4">
+                <img src="assets/images/myself.jpg" alt="This is not loaded" id="profile">
+              </div>
+              <div class="col s8" id="about">
+                <h1>About Me</h1>
+                <p>
+                  I am a full stack web developer with a passion for creating excellent web applications. 
+                  I have always had a deep connection with math and the intricate workings of code have caught that same connection. 
+                  Because of this connection I love coding, especially if I have to solve something math related. 
+                  I am happy and eager to learn new things and generally I'm a quick study.  
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="carousel-item blue white-text" href="#two!">
+          <div id="aboutOne">
+              <div class="row">
+              <div class="col s12" id="about">
+                <h1>The code that I prefer</h1>
+                <p>
+                  I enjoy writing both front and backend code, but I prefer writing backend code. 
+                  I prefer using a MongoDB database and express to create my server and database.
+                  I also know how to create and use mysql databases. 
+                  As for frontend, I love to use React because of the flexibility that rerendering individual elements gives and the speed of the final product.
+                  I like to bootstrap and materialize because I have become familiar with them. In fact this website utilizes materialize.
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+          <div id="aboutPan">
+              <div class="row">
+              <div class="col s8" id="about">
+                <h1>What I enjoy</h1>
+                <p>
+                  In my free time I love do anything in the outdoors. I especially love hiking and kayaking.
+                  My favorite hikes, so far, are Mount Timpanogus, Lone Peak and King's Peak. I took the picture to the right on the peak of King's Peak. 
+                  I enjoy listening to audiobooks. Some of my favorite books are: The Knight's Circus, Ender's Game and the Kingkiller Chronicles.
+                  I love a movie with a good twist ending. My all time favorite show is The Prestige.
+                </p>
+              </div>
+              <div class="col s3">
+                <div class="row">
+                  <img src="assets/images/king.jpg" alt="This is not loaded" id="profile">
+                </div>
+                  <div class="row label">
+                    <label for="profile">View off of King's Peak</label>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <!-- section -->
+    <div class="parallax-container" id="parTwo">
+        <div class="parallax"><img src="assets/images/lake.jpg"></div>
+        <div class="row" id="title">
+          <h1>My Projects</h1>
+        </div>
+            <div class="row" id="pro">
+              <div class="col s6">
+                <ul>
+                  <li>
+                    <div class="pros">
+                      <h4 class="centered">Outdoor Utah</h3>
+                    <a href="https://glacial-river-83546.herokuapp.com/">
+                      <img src="assets/images/hiking.png" alt="This has not loaded" class="project">
+                      <div class="overlay">
+                          <p class="line">
+                            This web app enables you to share your favorite Utah outdoor activities.
+                            The app stores data in a mysql database and renders it onto the page via handlebars.
+                            The app also utilizes google's api to locate and place the activity on a map allowing users to locate the activities.
+                          </p>
+                      </div>
+                    </div>
+                  </a>
+                  </li>
+                  <li>
+                      <div class="pros">
+                          <h4 class="centered">Spicy Taco Night</h3>
+                          <a href="https://pritchettausten.github.io/movieNight/">
+                        <img src="assets/images/taco.png" alt="This has not loaded" class="project">
+                        <div class="overlay">
+                          <p>
+                              A movie night app that allows users to get a movies and fancy taco recipe to eat/watch. 
+                              We used ajax calls to hit apis fo the data. 
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                    </li>
+                    <li>
+                        <div class="pros">
+                            <h4 class="centered">Scraper</h3>
+                            <a href="https://fierce-waters-29671.herokuapp.com/">
+                          <img src="assets/images/scraper.png" alt="This has not loaded" class="project">
+                          <div class="overlay">
+                            <p>
+                                This is a web scraper that scrapes lifehacker for its latest articles. 
+                                Parts of the articles are stored in a MongoDB database and rendered through handlebars. 
+                                Users can leave notes oon particular articles.
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                      </li>
+                </ul>
+              </div>
+              <div class="col s6">
+                  <ul>
+                      <li>
+                          <div class="pros">
+                              <h4 class="centered">Eat the Burger</h3>
+                                <a href="https://damp-beyond-87742.herokuapp.com/">
+                            <img src="assets/images/burger-flat.png" alt="This has not loaded" class="project">
+                            
+                            <div class="overlay">
+                              <p>This web app allows users to input and eat burgers. 
+                                  The app takes user input and displays it on one side of the app. 
+                                  Then users can eat the burger which moves that content to the other side of the application.</p>
+                            </div>
+                          </div>
+                        </a>
+                        </li>
+                        <li>
+                            <div class="pros">
+                              <h4 class="centered">Hangman</h3>
+                              <a href="https://itsajoe.github.io/hangman/">
+                              
+                              <img src="assets/images/hangman.png" alt="This has not loaded" class="project">
+                              
+                              <div class="overlay">
+                                <p>This is a Star Wars themed hangman. 
+                                  I used Jquery to target DOM elements and javascript to manipulate the data.</p>
+                              </div>
+                            </a>
+                            </div>
+                          </li>
+                    </ul>
+              </div>
+              
+            </div>
+           
+      </div> 
+      <div class="section contact" >
+                <div class="row">
+                  <h3>Contact/Connect With Me</h3>
+                </div>
+                <div class="row">
+                  <h5>Email: jmusser19@gmail.com</h5>
+                  <a href="https://www.linkedin.com/in/joseph-musser-6835ba13a/"><h5>LinkedIn</h5></a>
+                  <a href="https://github.com/itsajoe"><h5>Github</h5></a>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                    © 2018 Copyright Text
+                    </div>
+                  </div>
+              </div>
+              
+                  
+                
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <script src="assets/java/app.js"></script>
 </body>
 </html>

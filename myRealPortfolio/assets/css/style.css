@@ -1,32 +1,20 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
 p {
   line-height: 2rem;
 }
-
 .button-collapse {
   color: #26a69a;
 }
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+  height: 500px;
+  width: 100%;
+  color: black;
+  z-index: 1;
 }
   .parallax-container .section {
     width: 100%;
+    z-index: 1;
   }
 
 @media only screen and (max-width : 992px) {
@@ -54,4 +42,106 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+.container {
+  width: 100%;
+}
+#profile {
+  height: 300px;
+  width: 300px;
+  margin: 25%;
+  border-radius: 25px;
+}
+
+#about {
+  padding: 5%;
+}
+.info {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: grey;
+}
+.project {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 5%;
+}
+#pro {
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pros {
+  position: relative;
+  text-align: center;
+  margin: 40px;
+}
+#title {
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  display: none;
+  margin-left: 15%;
+  margin-top: 3.75%;
+  width: 70%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+#parTwo {
+  height: 1500px;
+}
+.line {
+  line-height: 2;
+  list-style-type: disc;
+  padding: 1;
+}
+.tabs {
+  color: black !important;
+  width: 100%;
+
+}
+
+.carousel.carousel-slider { 
+  height: 500px; 
+}
+.carousel-fixed-item {
+  color: white;
+}
+
+.top {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.contact {
+  text-align: center;
+  height: 300px;
+  background-color: black;
+  z-index: 1;
+  color: white;
+}
+
+.footer-copyright {
+  border-top: white;
+  border-style: solid;
 }
